@@ -3,6 +3,8 @@
 これは React Nativeの練習コードです。
 Android, Webで使用を目的に作成しています。
 
+<https://github.com/shunwitter>
+
 作成手順。
 templateオプションを付けて実行。
 

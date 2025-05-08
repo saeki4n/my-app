@@ -8,7 +8,13 @@
     "plugin:react/recommended"
   ],
   "rules": {
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": ["error", { "ignore": ["navigation"] }],
+        "import/prefer-default-export": 0,
+        "react/function-component-definition": [
+            2, { "namedComponents": "function-declaration" }
+        ],
+        "react/no-unstable-nested-components": ["error", { "allowAsProps": true }]
   },
   "env": {
     "browser": true,
