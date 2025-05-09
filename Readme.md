@@ -24,6 +24,7 @@ npx create-expo-app  --template
 
 ```bash
  $env:REACT_NATIVE_PACKAGER_HOSTNAME="192.168.10.109"
+ npm run start
 ```
 
 デフォルトではモバイルのみの対応のため必要なライブラリを追加でインストールする。
