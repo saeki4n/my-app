@@ -1,11 +1,12 @@
 {
-    "files.autoSave": "afterDelay",
-    "editor.formatOnSave": true,
-    "[markdown]": {
-        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-    },
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "always"
-    },
-    "eslint.validate": ["javascript", "typescript", "typescriptreact"]
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "eslint.validate": ["javascript", "typescript", "typescriptreact"]
 }

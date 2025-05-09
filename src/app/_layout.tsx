@@ -1,10 +1,8 @@
-import {Slot} from 'expo-router'
-import { JSX } from 'react'
+import { Slot } from "expo-router";
+import { JSX } from "react";
 
-const Layout = ():JSX.Element => {
-  return (
-    <Slot />
-  )
-}
+const Layout = (): JSX.Element => {
+  return <Slot />;
+};
 
-export default Layout
+export default Layout;

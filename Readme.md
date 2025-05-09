@@ -60,3 +60,7 @@ npm install eslint@8.57.0 --save-dev
 √ Would you like to install them now? ·  Yes
 ? Which package manager do you want to use? ... npm
 ```
+
+```bash
+npx expo install --save-dev prettier @ianvs/prettier-plugin-sort-imports prettier-plugin-tailwindcss
+```
