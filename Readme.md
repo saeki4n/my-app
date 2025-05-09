@@ -35,6 +35,12 @@ Web対応のプラグインインストール
 npx expo install react-dom react-native-web @expo/metro-runtime
 ```
 
+他、必要なライブラリ
+
+```bash
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar react-native-gesture-handler
+```
+
 ## ESlint
 
 ESLintのバージョン 9.xから書き方が大きく変わっている。
