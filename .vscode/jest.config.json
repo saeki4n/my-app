@@ -1,0 +1,8 @@
+{
+  "jest": {
+    "jestCommandLine": "npm test --",
+    "rootPath": ".",
+    "runMode": "on-demand",
+    "useDashedArgs": true
+  }
+}

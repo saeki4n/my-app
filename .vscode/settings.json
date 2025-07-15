@@ -8,5 +8,17 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always"
   },
-  "eslint.validate": ["javascript", "typescript", "typescriptreact"]
+  "eslint.validate": ["javascript", "typescript", "typescriptreact"],
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.suggest.autoImports": true,
+  "jest.jestCommandLine": "npm test --",
+  "jest.runMode": "on-demand",
+  "jest.rootPath": ".",
+  "jest.outputConfig": {
+    "revealOutput": "on-run"
+  },
+  "jest.enable": true,
+  "jest.disabledWorkspaceFolders": [],
+  "testing.automaticallyOpenPeekView": "never",
+  "testing.openTesting": "neverOpen"
 }

@@ -61,6 +61,22 @@ npm install eslint@8.57.0 --save-dev
 ? Which package manager do you want to use? ... npm
 ```
 
+## JEST導入
+
+コマンド
+
 ```bash
 npx expo install --save-dev prettier @ianvs/prettier-plugin-sort-imports prettier-plugin-tailwindcss
+```
+
+```bash
+npm i -D jest @types/jest babel-jest
+npm install --save-dev --save-exact react-test-renderer@19.0.0
+
+npm i -D @testing-library/react-native @testing-library/jest-native
+
+
+npx expo install jest-expo
+
+npm  i -D @testing-library/react-native @testing-library/jest-native
 ```
