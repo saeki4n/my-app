@@ -71,16 +71,33 @@ npm install eslint@8.57.0 --save-dev
 npm i -D jest @types/jest babel-jest
 npm install --save-dev --save-exact react-test-renderer@19.0.0
 npm i -D @testing-library/react-native @testing-library/jest-native
-npx expo install jest-expo
+npx expo install jest-expo --dev
 ```
 
 ### ESLint用のJESTプラグイン
 
 ```bash
-npm install --save-dev eslint-plugin-jest
+npm install -D eslint-plugin-jest
 ```
 
 ### 設定ファイル
+
+#### package.json
+
+スクリプトにJESTテスト実行コマンドを追加：
+
+```json
+{
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  }
+}
+```
 
 #### jest.config.js
 
